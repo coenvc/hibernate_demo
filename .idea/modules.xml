@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IdeaProjects-hirbernate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/IdeaProjects-hirbernate_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hirbernate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hirbernate_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hirbernate_test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hirbernate_test_main.iml" group="hirbernate_test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hirbernate_test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hirbernate_test_test.iml" group="hirbernate_test" />
+    </modules>
+  </component>
+</project>

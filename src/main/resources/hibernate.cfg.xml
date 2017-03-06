@@ -1,0 +1,15 @@
+<hibernate-configuration>
+    <session-factory>
+        <!--Database connection settings-->
+        <property name="connection.driver_class">org.h2.Driver</property>
+        <property name="connection.url">jdbc:h2:.data/hibernate_test</property>
+        <!--SQL Dialect--> 
+        <property name="dialect">org.hibernate.dialect.H2Dialect</property>
+        <!--Genereer schema op basis van de JPA annotaties-->
+        <!--Genereer op het moment dat de applicatie gaat draaien-->
+        <property name="hbm2ddl.auto">create</property>
+
+        <!--Map de Klasses door naar hibernate -->
+        <mapping class="com.coen.contactmgr.model.Contact"/>
+    </session-factory>
+</hibernate-configuration>
